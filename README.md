@@ -1,6 +1,6 @@
 # Flooring Calculator (地板材料計算器)
 
-[![Calculator Suite](https://img.shields.io/badge/Calculator%20Suite-Flooring%20Calculator-2D5A4A?style=flat-square)](https://github.com/Jupiterlaw/calculator-suite)
+[![Calculator Suite](https://img.shields.io/badge/Calculator%20Suite-Flooring%20Calculator-01696F?style=flat-square)](https://github.com/Jupiterlaw/calculator-suite)
 
 地板材料面積計算器 — 支援多區域施工面積輸入、損耗率計算、自動換算包數。
 
