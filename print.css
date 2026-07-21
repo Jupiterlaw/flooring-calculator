@@ -1,0 +1,88 @@
+@media print {
+  /* Hide interactive UI for paper */
+  .btn,
+  .remove-area-btn,
+  .theme-toggle,
+  button,
+  input[type="button"],
+  input[type="submit"] {
+    display: none !important;
+  }
+
+  /* Simplify layout for paper */
+  body,
+  .app,
+  .card,
+  .area-card,
+  .result-card {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    margin: 0 !important;
+    padding: 0.5cm !important;
+  }
+
+  /* Remove visual noise */
+  .app-grid {
+    display: block !important;
+  }
+
+  /* Table layout */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: avoid !important;
+  }
+
+  th,
+  td {
+    border: 1px solid #999 !important;
+    padding: 0.2cm !important;
+    text-align: left !important;
+    font-size: 0.85pt !important;
+  }
+
+  th {
+    background: #f0f0f0 !important;
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+
+  .header,
+  .card-title {
+    color: #000 !important;
+    border-bottom: 1px solid #ccc !important;
+  }
+
+  /* Hide decorative background images/gradients */
+  body::before,
+  body::after {
+    display: none !important;
+  }
+
+  /* Ensure readability */
+  .hint,
+  .formula,
+  .pill-stats,
+  .error {
+    display: none !important;
+    color: #000 !important;
+  }
+
+  /* Print-friendly unit display */
+  .area-m2,
+  .area-ft2,
+  .pack-unit,
+  .pack-value {
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+
+  /* Page break control */
+  .area-card,
+  .result-card {
+    page-break-inside: avoid !important;
+    margin-bottom: 0.5cm !important;
+  }
+}
