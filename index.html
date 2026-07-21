@@ -43,10 +43,10 @@
     }
 
     .app {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 2rem 1.25rem 3rem;
-    }
+          max-width: 480px;
+          margin: 0 auto;
+          padding: clamp(1rem, 4vw, 2rem) 1.25rem 2rem;
+        }
 
     .header {
       text-align: center;
@@ -70,15 +70,10 @@
         }
 
     .grid-top {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
-      margin-bottom: 1.25rem;
-    }
+          display: block;
+        }
 
-    @media (max-width: 768px) {
-      .grid-top { grid-template-columns: 1fr; }
-    }
+
 
     .card {
       background: var(--surface);
@@ -315,18 +310,10 @@
     }
 
     .results-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1rem;
-    }
+          display: block;
+        }
 
-    @media (max-width: 900px) {
-      .results-grid { grid-template-columns: repeat(2, 1fr); }
-    }
 
-    @media (max-width: 480px) {
-      .results-grid { grid-template-columns: 1fr; }
-    }
 
     .result-card {
       background: var(--surface);
