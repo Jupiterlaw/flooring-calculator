@@ -23,7 +23,7 @@
       --shadow-sm: 0 2px 8px rgba(44, 41, 38, 0.06);
       --radius: 14px;
       --radius-sm: 10px;
-      --font: "Segoe UI", "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+      --font: system-ui, -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
       --transition: 0.2s ease;
     }
 
@@ -33,7 +33,7 @@
       margin: 0;
       min-height: 100vh;
       font-family: var(--font);
-      font-size: 15px;
+      font-size: 16px;
       line-height: 1.55;
       color: var(--text);
       background: var(--bg);
@@ -62,12 +62,12 @@
     }
 
     .header p {
-      margin: 0;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      max-width: 36em;
-      margin-inline: auto;
-    }
+          margin: 0;
+          font-size: 1rem;
+          color: var(--text-muted);
+          max-width: 36em;
+          margin-inline: auto;
+        }
 
     .grid-top {
       display: grid;
@@ -123,23 +123,23 @@
     }
 
     .field label {
-      font-size: 0.82rem;
+      font-size: 0.875rem;
       font-weight: 600;
       color: var(--text);
     }
 
     .field .hint {
-      font-size: 0.75rem;
+          font-size: 0.875rem;
       color: var(--text-muted);
       margin-top: -0.15rem;
     }
 
     input[type="number"],
-    input[type="text"] {
-      width: 100%;
-      padding: 0.65rem 0.75rem;
-      font: inherit;
-      font-size: 0.95rem;
+        input[type="text"] {
+          width: 100%;
+          padding: 0.65rem 0.75rem;
+          font: inherit;
+          font-size: 1rem;
       color: var(--text);
       background: var(--surface-muted);
       border: 1px solid var(--border);
@@ -186,11 +186,11 @@
       gap: 0.35rem;
       padding: 0.6rem 1.1rem;
       font: inherit;
-      font-size: 0.9rem;
-      font-weight: 600;
-      border: none;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
+      font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
       transition: background var(--transition), transform 0.1s ease, box-shadow var(--transition);
     }
 
@@ -209,11 +209,11 @@
     }
 
     .btn-ghost {
-      background: transparent;
-      color: var(--danger);
-      border: 1px solid var(--danger-soft);
-      padding: 0.45rem 0.75rem;
-      font-size: 0.82rem;
+          background: transparent;
+          color: var(--danger);
+          border: 1px solid var(--danger-soft);
+          padding: 0.45rem 0.75rem;
+          font-size: 0.875rem;
     }
 
     .btn-ghost:hover {
@@ -255,8 +255,8 @@
     }
 
     .area-card-head h3 {
-      margin: 0;
-      font-size: 0.95rem;
+          margin: 0;
+          font-size: 1rem;
       font-weight: 650;
       color: var(--accent);
     }
@@ -292,7 +292,7 @@
     }
 
     .subtotal-box .label {
-      font-size: 0.72rem;
+          font-size: 0.75rem;
       font-weight: 600;
       color: var(--text-muted);
       text-transform: none;
@@ -337,7 +337,7 @@
     }
 
     .result-card .result-label {
-      font-size: 0.78rem;
+          font-size: 0.875rem;
       font-weight: 600;
       color: var(--text-muted);
       margin-bottom: 0.5rem;
@@ -358,7 +358,7 @@
     }
 
     .result-card .dual .unit {
-      font-size: 0.8rem;
+          font-size: 0.875rem;
       font-weight: 600;
       color: var(--text-muted);
     }
